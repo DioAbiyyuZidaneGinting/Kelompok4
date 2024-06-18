@@ -1,0 +1,865 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 150vh;
+    background-image: url(image/Rog\ Elements\ _\ 4k\ _\ Animated\ Wallpaper.mp4);
+    background-size: cover;
+
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "urbanist", sans-serif;
+}
+
+.video{
+    width: 100%;
+    height: auto;
+}
+
+nav{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li{
+    height: 50px;
+}
+
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+nav a:hover{
+    background-color: #aaaaaa;
+    color: tomato;
+    transition: .5s;
+}
+
+nav li:first-child{
+    margin-right: auto;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.433);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li{
+    width: 100%;
+}
+
+.sidebar a{
+    width: 100%;
+    color: black;
+}
+
+.menu-button{
+    display: none;
+}
+
+
+.logo{
+    font-style: normal;
+    font-weight: 70px;
+    font-family: 'Averus', sans-serif; /* Tambahkan properti font-family di sini */
+    color: white;
+}
+
+.service {
+    margin-top: -10px;
+    background: #101010;
+    width: 100%;
+    padding: 100px 0; 
+    font-style: normal;
+    font-weight: 400;
+    src: local('Averus'), url('https://fonts.cdnfonts.com/s/31337/Averus (DEMO).woff') format('woff');
+    
+}
+.fuel {
+    margin-top: -10px;
+    background: #101010;
+    width: 100%;
+    padding: 100px 0; 
+    font-style: normal;
+    font-weight: 400;
+    src: local('Averus'), url('https://fonts.cdnfonts.com/s/31337/Averus (DEMO).woff') format('woff');
+    
+}
+.fuel2 {
+    margin-top: -40px;
+    background: linear-gradient(to bottom, #101010, #000000);
+    width: 100%;
+    height: 110vh;
+    padding: 100px 0; 
+    font-style: normal;
+    font-weight: 400;
+    src: local('Averus'), url('https://fonts.cdnfonts.com/s/31337/Averus (DEMO).woff') format('woff');
+    
+    
+}
+.footer {
+   
+   background-color: #8d0202;
+    width: 100%;
+    height: 30px;
+    padding: 30px 0; 
+    font-style: normal;
+    font-weight: 400;
+    src: local('Averus'), url('https://fonts.cdnfonts.com/s/31337/Averus (DEMO).woff') format('woff');
+    
+}
+
+
+.title h2 {
+        
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    width: 100%;
+    margin-bottom: 30px auto;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Averus', sans-serif; /* Tambahkan properti font-family di sini */
+    
+    /*Text Shadow */
+    color: white;
+    text-shadow: -10px 10px 0px #000000;
+    color: #333;text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+    
+
+
+}
+
+.title h2 span{
+color: rgb(240, 0, 0);
+font-size: 60px;
+width: 100%;
+margin-bottom: 30px auto;
+text-align: center;
+font-family: 'Averus';
+font-style: normal;
+font-weight: 400;
+src: local('Averus'), url('https://fonts.cdnfonts.com/s/31337/Averus (DEMO).woff') format('woff');
+}
+
+.box {
+    display: flex; /* Mengatur container menjadi flex container */
+    flex-direction: row; /* Mengatur arah kotak-kotak menjadi horizontal */
+    justify-content: space-between; /* Mengatur agar kotak-kotak berjejer dengan jarak yang sama di antara mereka */
+}
+
+.card5 {
+    height: 365px;
+    width: 300px;
+    padding: 15px 35px;
+    background: #141414;
+    border-radius: 20px;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid red;
+}
+
+
+    .card5 svg{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .card5 i {
+        font-size: 50px;
+        display: block;
+        text-align: center;
+        margin: 25px 0;
+        color: red;
+    }
+
+    .card5 h5{
+        color: white;
+        font-size: 16px;
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+
+    .pra p {
+        color: #fcfc;
+        font-size: 16px;
+        line-height: 27px;
+        margin-bottom: 25px;
+        text-align: justify;
+    }
+
+    .pra p a {
+        background-color: red;
+        color: white;
+        border: 2px solid white;
+        box-shadow: 3px 3px 0 rgb(240, 0, 0);
+        font-weight: bold;
+        padding: 9px 22px;
+        border-radius: 30px;
+    }
+
+    .pra p a:hover{
+        background-color: transparent;
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0.1);
+        border: 2px solid;
+        cursor: pointer;
+        transition: .7s;
+    }
+
+    .card5 a{
+        text-decoration: none;
+    }
+
+
+
+      a {
+        text-decoration: none;
+      }
+      input {
+        display: none;
+      }
+      .container {
+        width: 100%;
+        height: 100%;
+        max-width: 600px;
+        max-height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform-style: preserve-3d;
+        flex-direction: column;
+        margin-bottom: 20px;
+        margin-top: 70px;
+        margin-left: 30%;
+        
+      }
+      .cards {
+        position: relative;
+        height: 500px;
+        width: 400px;
+        margin-bottom: 20px;
+        perspective: 1000px;
+        transform-style: preserve-3d;
+        margin-left: 35%;
+      }
+      .cards label {
+        position: absolute;
+        width: 430px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        cursor: pointer;
+        transition: transform 0.5s ease;
+      }
+      .cards .card {
+        position: relative;
+        height: 100%;
+        background-color: #323444;
+        border-radius: 10px;
+        padding: 30px 35px;
+        border: 2px solid #5b85f9;
+      }
+      .cards .image {
+        display: flex;
+        justify-content: space-between;
+      }
+      .cards .image img {
+        border-radius: 5px;
+        box-shadow: 15px 15px 40px rgba(0, 0, 0, 50%);
+        margin-top: 23px;
+        width: 86%;
+        height: 220px;
+        object-fit: cover;
+        transition: all 0.7s;
+      }
+      .cards .image img:hover {
+        transform: scale(1.05);
+      }
+      .cards .image .dots {
+        text-align: center;
+      }
+      .dots div {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+      }
+      .dots div:nth-child(1) {
+        background-color: var(--current-color1);
+      }
+      .dots div:nth-child(2) {
+        background-color: #5b85f9;
+      }
+      .dots div:nth-child(3) {
+        background-color: #000;
+      }
+      .card .infos {
+        display: block;
+        text-align: end;
+        padding-top: 60px;
+      }
+      .card .infos span {
+        display: block;
+      }
+      .infos .name {
+        font-size: 30px;
+        color: #3362e4;
+        letter-spacing: 8px;
+        margin-bottom: 20px;
+        padding-left: 25%;
+        transition: all 0.6s ease;
+      }
+      .card .lorem {
+        font-size: 15.5px;
+        color: #eceaed;
+        margin: 35px auto;
+      }
+      .card .btn-details {
+        width: 100%;
+        height: 60px;
+        margin: 35px auto;
+        border-radius: 5px;
+        background-color: #3362e4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 25px;
+        letter-spacing: 10px;
+        font-weight: 700;
+        transition: all0.9s ease;
+      }
+      .card .btn-details:hover {
+        transform: scale(1.09);
+      }
+      .card .actions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+      }
+      .actions i {
+        font-size: 24px;
+        transition: all 0.7s ease;
+        color: var(--current-color2);
+      }
+      .actions:hover i {
+        transform: scale(1.3);
+      }
+      #s1:checked ~ .cards #slide4,
+      #s2:checked ~ .cards #slide5,
+      #s3:checked ~ .cards #slide1,
+      #s4:checked ~ .cards #slide2,
+      #s5:checked ~ .cards #slide3 {
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 45%);
+        transform: translate3d(-70%, 0, -220px);
+        --current-color1: #eceaed;
+        --current-color2: #404457;
+      }
+      #s1:checked ~ .cards #slide5,
+      #s2:checked ~ .cards #slide1,
+      #s3:checked ~ .cards #slide2,
+      #s4:checked ~ .cards #slide3,
+      #s5:checked ~ .cards #slide4 {
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 45%);
+        transform: translate3d(-35%, 0, -120px);
+        --current-color1: #eceaed;
+        --current-color2: #404457;
+      }
+      #s1:checked ~ .cards #slide1,
+      #s2:checked ~ .cards #slide2,
+      #s3:checked ~ .cards #slide3,
+      #s4:checked ~ .cards #slide4,
+      #s5:checked ~ .cards #slide5 {
+        box-shadow: 0 25px 50px rgba(0, 0, 0, 50%);
+        transform: translate3d(0, 0, 0);
+        --current-color1: #fad00c;
+        --current-color2: #eceaed;
+      }
+      #s1:checked ~ .cards #slide2,
+      #s2:checked ~ .cards #slide3,
+      #s3:checked ~ .cards #slide4,
+      #s4:checked ~ .cards #slide5,
+      #s5:checked ~ .cards #slide1 {
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 50%);
+        transform: translate3d(35%, 0, -120px);
+        --current-color1: #eceaed;
+        --current-color2: #404457;
+      }
+      #s1:checked ~ .cards #slide3,
+      #s2:checked ~ .cards #slide4,
+      #s3:checked ~ .cards #slide5,
+      #s4:checked ~ .cards #slide1,
+      #s5:checked ~ .cards #slide2 {
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 45%);
+        transform: translate3d(70%, 0, -220px);
+        --current-color1: #eceaed;
+        --current-color2: #404457;
+      }
+        
+      .fuel {
+        background: #101010;
+        width: 100%;
+        padding: 100px 0; 
+        font-style: normal;
+        font-weight: 400;
+        src: local('Averus'), url('https://fonts.cdnfonts.com/s/31337/Averus (DEMO).woff') format('woff');
+        
+      }
+      
+      .judul h2 {
+        
+            color: rgb(255, 255, 255);
+            font-size: 60px;
+            width: 100%;
+            margin-bottom: 30px auto;
+            text-align: center;
+            font-style: normal;
+            font-weight: 400;
+            font-family: 'Averus', sans-serif; /* Tambahkan properti font-family di sini */
+            
+            /*Text Shadow */
+            color: white;
+            text-shadow: -10px 10px 0px #000000;
+            color: #6f00ff;
+            text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+            
+        
+        
+      }
+      
+      .judul h2 span{
+        color: rgb(240, 0, 0);
+        font-size: 60px;
+        width: 100%;
+        margin-bottom: 30px auto;
+        text-align: center;
+        font-family: 'Averus';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Averus'), url('https://fonts.cdnfonts.com/s/31337/Averus (DEMO).woff') format('woff');
+      }
+      .judul h3 {
+        color: rgb(0, 0, 0);
+       
+        text-align: center;
+        align-items: center;
+        margin-top: 40px;
+        font-size: 60px;
+        font-family: 'Averus';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Averus'), url('https://fonts.cdnfonts.com/s/31337/Averus (DEMO).woff') format('woff');
+        color: #333;
+      background: white;
+      text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+      }
+      
+      .judul h3 span{
+        color: rgb(240, 0, 0);
+        font-size: 60px;
+        width: 100%;
+        margin-bottom: 30px auto;
+        text-align: center;
+        font-family: 'Averus';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Averus'), url('https://fonts.cdnfonts.com/s/31337/Averus (DEMO).woff') format('woff');
+        font-weight: bold;
+      }
+      
+      /* Aturan CSS untuk mengatur tata letak horizontal */
+      /* Aturan CSS untuk mengatur tata letak horizontal */
+      .box2 {
+      display: flex; /* Menggunakan flexbox */
+      justify-content: space-around; /* Menyusun kotak secara merata di sekitar konten */
+      flex-wrap: wrap; /* Memungkinkan kotak untuk pindah ke baris baru jika diperlukan */
+      }
+
+      .materi{
+        display: flex; /* Menggunakan flexbox */
+      justify-content: space-around; /* Menyusun kotak secara merata di sekitar konten */
+      flex-wrap: wrap; /* Memungkinkan kotak untuk pindah ke baris baru jika diperlukan */
+      }
+
+      .card7{
+        height: 200px;
+        width: 80%;
+        padding: 20px 35px;
+        background: #680101;
+        border-radius: 20px;
+        margin: 15px;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+        border: 1px solid red;
+      }
+
+      .materi .card7 h1{
+        font-size: 50px;
+        font-family: 'THE AMAZING SPIDER-MAN', sans-serif;
+        color: #fff;                                 
+      }
+      .materi .card7 h2{
+        font-size: 50px;
+        font-family: "Tiny5", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #fff;                                 
+      }
+
+      
+
+      
+      
+      
+      
+      
+      .card6 {
+        height: 300px;
+        width: 260px;
+        padding: 20px 35px;
+        background: #141414;
+        border-radius: 20px;
+        margin: 15px;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+        border: 1px solid red;
+      }
+      
+      .card6 i {
+        font-size: 50px;
+        display: block;
+        text-align: center;
+        margin: 25px 0;
+        color: red;
+      }
+      
+      .card6 h5{
+        color: white;
+        font-size: 16px;
+        margin-bottom: 15px;
+        font-weight: bold;
+      }
+      
+      .monster p {
+        color: #fcfc;
+        font-size: 16px;
+        line-height: 27px;
+        margin-bottom: 25px;
+        text-align: justify;
+      }
+      
+      .monster p a {
+        background-color: red;
+        color: white;
+        border: 2px solid white;
+        box-shadow: 3px 3px 0 rgb(240, 0, 0);
+        font-weight: bold;
+        padding: 9px 22px;
+        border-radius: 30px;
+      }
+      
+      .monster p a:hover{
+        background-color: transparent;
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0.1);
+        border: 2px solid;
+        cursor: pointer;
+        transition: .7s;
+      }
+
+    
+
+      ul {
+        list-style: none;
+      }
+      
+      .example-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .example-2 .icon-content {
+        margin: 0 10px;
+        position: relative;
+      }
+      .example-2 .icon-content .tooltip {
+        position: absolute;
+        top: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #fff;
+        padding: 6px 10px;
+        border-radius: 15px;
+        opacity: 0;
+        visibility: hidden;
+        font-size: 14px;
+        transition: all 0.3s ease;
+      }
+      .example-2 .icon-content:hover .tooltip {
+        opacity: 1;
+        visibility: visible;
+        top: -50px;
+      }
+      .example-2 .icon-content a {
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 20%;
+        color: #4d4d4d;
+        background-color: #ffff;
+        transition: all 0.3s ease-in-out;
+      }
+      .example-2 .icon-content a:hover {
+        box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 50%);
+      }
+      .example-2 .icon-content a svg {
+        position: relative;
+        z-index: 1;
+        width: 30px;
+        height: 30px;
+      }
+      .example-2 .icon-content a:hover {
+        color: white;
+      }
+      .example-2 .icon-content a .filled {
+        position: absolute;
+        top: auto;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background-color: #000;
+        transition: all 0.3s ease-in-out;
+      }
+      .example-2 .icon-content a:hover .filled {
+        height: 100%;
+      }
+      .example-2 .icon-content a[data-social="linkedin"] .filled,
+      .example-2 .icon-content a[data-social="linkedin"] ~ .tooltip {
+        background-color: #0095ff;
+      }
+      .example-2 .icon-content a[data-social="github"] .filled,
+      .example-2 .icon-content a[data-social="github"] ~ .tooltip {
+        background-color: #000000;
+      }
+      .example-2 .icon-content a[data-social="instagram"] .filled,
+      .example-2 .icon-content a[data-social="instagram"] ~ .tooltip {
+        background: linear-gradient(to bottom, #0095ff, #b233e4, #ff0177, rgba(255, 247, 0, 0.256));
+
+      }
+      .example-2 .icon-content a[data-social="whatsapp"] .filled,
+      .example-2 .icon-content a[data-social="whatsapp"] ~ .tooltip {
+        background-color: #00ff33;
+
+      }
+      .example-2 .icon-content a[data-social="youtube"] .filled,
+      .example-2 .icon-content a[data-social="youtube"] ~ .tooltip {
+        background-color: #cc0022;
+      }
+      
+      #whatsapp:hover path {
+        fill: #ffffff; /* Putih */
+      }
+
+      .materi {
+        background-color: #101010 ;
+      }
+      .materi-content{
+        background-color: #00ff33;
+        width: 80px;
+      }
+      .materi-content h1{
+        text-align: center;
+      }
+      
+      @media(max-width: 1200px){
+        .box {
+          flex-direction: column; /* Mengubah arah flex items menjadi vertikal */
+          align-items: center; /* Menengahkan items secara horizontal */
+      }
+  
+      .box .card5 {
+          width: 60%; /* Menyesuaikan lebar setiap card */
+          margin-bottom: 20px; /* Memberikan jarak antar card */
+      }
+      }
+
+@media(max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    }
+
+    .menu-button{
+        display: block;
+    }
+
+    .judul h2{
+      font-size: 40px;
+    }
+    .judul h2 span{
+      font-size: 40px;
+    }
+
+    .sidebar{
+      width: 100%;
+  }
+  
+  .box2 .card6{
+    width: 60%;
+  }
+
+  .judul h2{
+    font-size: 40px;
+  }
+  .judul h2 span{
+    font-size: 40px;
+  }
+
+  .fuel2 .title h2{
+    font-size: 40px;
+  }
+  .fuel2 .title h2 span{
+    font-size: 40px;
+  }
+  
+  .box, .box2 {
+    flex-direction: column;
+    margin-left: 12%;
+}
+
+.box .card5{
+  width: 60%;
+  align-items: center;
+  margin-left: -40px;
+}
+
+nav .logo{
+  margin-left: -30px;
+  
+}
+nav .logo a{
+  font-size: 5px;
+  
+}
+
+.materi .card7 h2{
+  font-size: 40px;
+  font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;                                 
+}
+}
+
+
+
+
+@media(max-width: 400px){
+    .sidebar{
+        width: 100%;
+    }
+    
+    .box2 .card6{
+      width: 60%;
+      margin-left: 10%;
+    }
+
+    .judul h2{
+      font-size: 40px;
+    }
+    .judul h2 span{
+      font-size: 40px;
+    }
+
+    .fuel2 .title h2{
+      font-size: 40px;
+    }
+    .fuel2 .title h2 span{
+      font-size: 40px;
+    }
+    
+    .box, .box2 {
+      flex-direction: column;
+      margin-left: 5px;
+      
+  }
+
+  .box .card5{
+    width: 60%;
+    margin-left: 5px;
+  }
+
+  nav .logo{
+    margin-left: -40px;
+    
+  }
+  nav .logo a{
+    font-size: 5px;
+    
+  }
+
+  .card5 svg{
+    margin-top: 20px;
+  }
+
+  .title h2{
+    font-size: 30px;
+  }
+
+  .footer #nama p{
+    text-align: center;
+  }
+
+  .materi .card7 h1{
+    font-size: 40px;
+    font-family: 'THE AMAZING SPIDER-MAN', sans-serif;
+    color: #fff;                                 
+  }
+  .materi .card7 h2{
+    font-size: 40px;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;                                 
+  }
+
+  
+    
+
+}
+
+
